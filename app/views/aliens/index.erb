@@ -1,5 +1,9 @@
 <h1>ALiens</h1>
 
-<% @aliens.each do |alien| %>
-  <%= alien.name %>
-<% end %>
+<ul>
+  <% @aliens.each do |alien| %>
+    <li>
+      <%= alien.name %>
+    </li>
+  <% end %>
+</ul>
