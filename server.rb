@@ -7,27 +7,21 @@ enable :sessions
 
 # Any classes you add to the models folder will automatically be made available in this server file
 
+get "/" do
+  redirect "/aliens"
+end
 
 get "/aliens" do
   @aliens = Alien.all
 
-  erb(:"aliens/index")
+  erb :"aliens/index"
+  # erb(:"aliens/index")
 end
 
 get "/aliens/new" do
-
-
-
+  
 end
 
-get '/' do
-  redirect '/starships'
-end
-#
-# get '/starships' do
-#   # Use a custom Starship class that inherits from ActiveRecord to retrieve your database objects
-#   # You should be using ActiveRecord CRUD methods to aid you.
-#   # E.g. Planet.where(planet_type: "gas giant"), etc.
-#
-#   erb :'starships/index'
+# get "/starships" do
+#   erb :"starships/index"
 # end

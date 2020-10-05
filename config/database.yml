@@ -2,7 +2,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: star_fleet_development
+  database: star_fleet_aliens_development
   pool: 20
   username:
   password:
@@ -11,7 +11,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: star_fleet_test
+  database: star_fleet_aliens_test
   pool: 20
   username:
   password:
