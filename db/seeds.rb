@@ -7,4 +7,4 @@
 # Ship.create(name: 'Serenity', ship_class: 'Firefly', location: "Miranda")
 Alien.create(name: 'ET', species: "......ET")
 Alien.create(name: 'Andre 2000', species: "ATLien")
-Alien.create(name: 'Greyhounds', species: "alien pretending to be a dog")
+Alien.create(name: 'Greyhounds', species: "alien pretending to be a dog. we are cool with that though.")
