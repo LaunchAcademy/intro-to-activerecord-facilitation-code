@@ -12,8 +12,10 @@ get "/" do
 end
 
 get "/aliens" do
-  @aliens = Alien.all
+  # binding.pry
 
+  @aliens = Alien.all
+  
   erb :"aliens/index"
   # erb(:"aliens/index")
 end
