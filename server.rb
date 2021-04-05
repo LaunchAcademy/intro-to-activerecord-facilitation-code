@@ -16,12 +16,11 @@ get "/aliens" do
   @aliens = Alien.all
 
   erb :"aliens/index"
-  
   # erb(:"aliens/index")
 end
 
 get "/aliens/new" do
-  # erb :"aliens/new"
+
 end
 
 # get "/starships" do
