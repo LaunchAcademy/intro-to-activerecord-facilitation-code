@@ -14,7 +14,7 @@ end
 
 get "/aliens" do
   @aliens = Alien.all
-
+binding.pry
   erb :"aliens/index"
   # erb(:"aliens/index")
 end
